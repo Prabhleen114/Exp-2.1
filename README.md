@@ -37,3 +37,29 @@ CSS pseudo-classes such as `:invalid` and `:valid` are used to visually highligh
 
 ## Project Structure
 
+
+
+## Learning Outcomes
+
+This project demonstrates:
+
+- Understanding of front-end fundamentals
+- Practical implementation of form validation
+- Responsive UI design principles
+- Clean semantic markup usage
+- User-centric validation feedback handling
+
+
+## How to Run
+
+1. Clone the repository  
+2. Open `index.html` in any modern browser  
+3. (Optional) Use VS Code Live Server for development  
+
+
+## Future Improvements
+
+- Add JavaScript-based custom validation
+- Integrate backend (Node.js / Express) for server-side validation
+- Store form submissions in a database
+- Convert into React-based form component
