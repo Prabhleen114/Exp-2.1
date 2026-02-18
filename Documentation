@@ -1,0 +1,91 @@
+# Project Documentation
+
+## Project Title
+Student Registration Form with HTML5 Validation
+
+---
+
+## Objective
+
+To design and implement a responsive web-based student registration form that validates user input using native HTML5 validation mechanisms and CSS-based visual feedback.
+
+---
+
+## Functional Requirements
+
+- Accept student name input
+- Validate email format
+- Restrict age input using numeric constraints
+- Prevent form submission if validation fails
+- Provide clear visual feedback for invalid fields
+
+---
+
+## Technical Implementation
+
+### Front-End
+
+- Structured using semantic HTML5 elements
+- Styled using CSS3
+- Responsive layout design
+
+### Validation Strategy
+
+The application uses browser-native validation features:
+
+- `required` for mandatory fields
+- `type="email"` for automatic email format validation
+- `pattern` for custom input constraints
+- `min` and `max` for numeric restrictions
+- CSS `:invalid` selector for real-time visual feedback
+
+
+
+## System Requirements
+
+### Hardware
+- 4GB RAM minimum
+- Standard modern processor
+- 1366×768 display or higher
+
+### Software
+- Modern web browser (Chrome, Firefox, Edge)
+- Code editor (VS Code recommended)
+
+
+
+## Security Consideration
+
+This project uses client-side validation only.  
+Client-side validation improves user experience but **does not ensure security**.
+
+For production-grade applications, server-side validation is mandatory to prevent:
+- Data tampering
+- Bypass attacks
+- Malicious input submission
+
+
+
+## Conceptual Understanding (Interview / Viva)
+
+### 1. Which HTML5 attributes provide built-in validation?
+`required`, `pattern`, `type`, `min`, `max`, `minlength`, `maxlength`
+
+### 2. How can validation messages be customized?
+Using JavaScript with `setCustomValidity()` method.
+
+### 3. Difference between `type="email"` and `type="text"`?
+`type="email"` enforces email format automatically, while `type="text"` does not validate format.
+
+### 4. How does CSS `:invalid` work?
+It applies styles to input fields that fail validation rules.
+
+### 5. Why is client-side validation insufficient?
+Because it can be bypassed; server-side validation is required for secure systems.
+
+---
+
+## Course Outcome Mapping
+
+CO1: Understanding of front-end development fundamentals including HTML and CSS.  
+CO2: Ability to develop interactive and responsive front-end applications.
